@@ -7,10 +7,10 @@ git clone https://github.com/dylanscotthall/WatermarkImages
 
 BEFORE YOU RUN THE SCRIPT MAKE A COPY OF ALL YOUR IMAGES THIS PROCESS IS NOT REVERSABLE
 
-once the .exe is on your machine you can run it from the console.
-navigate to the directory where you downloaded your .exe and right click in the directory and select 'Open in Terminal'
-Once you have a terminal open type addTextToImage.exe followed by the path to you folder containing all the images you want to rename
-The script takes in three parameter 
+once the .exe is on your machine you can run it from the console.  
+navigate to the directory where you downloaded your .exe and right click in the directory and select 'Open in Terminal'  
+Once you have a terminal open type addTextToImage.exe followed by the path to you folder containing all the images you want to rename  
+The script takes in three parameter  
 
 -- font which you need to specify a .ttf font or you can use the default one provided in the repository when you use git clone
 
@@ -37,5 +37,5 @@ for this script to run your folder structure for the images must look like this
             image2.png
             image3.png
 ```
-With this folder structure you can run the script like this
+With this folder structure you can run the script like this  
 addTextToImage.exe /path/to/root --scale 0.05 --font Roboto-Black.ttf --position bottom_right
